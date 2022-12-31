@@ -17,7 +17,7 @@ def main():
     # The function loads is used to convert a JSON string into a dictionary object
     my_dict = loads(in_data.decode('utf-8'))
     filename = my_dict['filename']
-    filedata = my_dict['filename'].encode('utf-8')
+    filedata = my_dict['filedata'].encode('utf-8')
     with open('/Users/Lemonci/Pictures/'+filename, 'wb') as f:
         # Decode the base64 file into binary and write into a file
         f.write(b64decode(filedata))
