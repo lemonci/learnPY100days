@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a370afdd-8ea2-452c-8f32-f72d9a293b16" name="Changes" comment="Finish day 13">
-      <change afterPath="$PROJECT_DIR$/day14/send_email.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day14/send_email_with_attachment.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day14/sms.py" afterDir="false" />
+    <list default="true" id="a370afdd-8ea2-452c-8f32-f72d9a293b16" name="Changes" comment="Finish day 14">
+      <change afterPath="$PROJECT_DIR$/day15/excel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day15/image.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day15/word.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/learnPY100day.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/learnPY100day.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day14/multi_thread_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/day14/multi_thread_client.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,11 +58,12 @@
       <recent name="C:\Users\Lemonci\PycharmProjects\learnPY100day\day6" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Lemonci\PycharmProjects\learnPY100day\day15" />
       <recent name="C:\Users\Lemonci\PycharmProjects\learnPY100day\day7" />
       <recent name="C:\Users\Lemonci\PycharmProjects\learnPY100day\day5" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.craps">
     <configuration name="craps" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="learnPY100day" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -164,7 +166,9 @@
       <workItem from="1672102298169" duration="4095000" />
       <workItem from="1672166075952" duration="16132000" />
       <workItem from="1672499028504" duration="10212000" />
-      <workItem from="1672516948427" duration="6896000" />
+      <workItem from="1672516948427" duration="7156000" />
+      <workItem from="1672528821693" duration="4876000" />
+      <workItem from="1672537028506" duration="28000" />
     </task>
     <task id="LOCAL-00001" summary="finish day 11">
       <created>1672022869057</created>
@@ -208,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672242501729</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Finish day 14">
+      <created>1672528506665</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1672528506665</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,7 +242,8 @@
     <MESSAGE value="Finish day 12" />
     <MESSAGE value="Finish ARIMA 3.3" />
     <MESSAGE value="Finish day 13" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish day 13" />
+    <MESSAGE value="Finish day 14" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish day 14" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -250,10 +262,12 @@
     <SUITE FILE_PATH="coverage/learnPY100day$download_multi.coverage" NAME="download_multi Coverage Results" MODIFIED="1672240136744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day13" />
     <SUITE FILE_PATH="coverage/learnPY100day$thread_trial.coverage" NAME="thread_trial Coverage Results" MODIFIED="1672197228825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day13" />
     <SUITE FILE_PATH="coverage/learnPY100day$multi_thread_server.coverage" NAME="multi_thread_server Coverage Results" MODIFIED="1672516977901" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day14" />
+    <SUITE FILE_PATH="coverage/learnPY100day$excel.coverage" NAME="excel Coverage Results" MODIFIED="1672530552451" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day15" />
     <SUITE FILE_PATH="coverage/learnPY100day$Inheritance.coverage" NAME="Inheritance Coverage Results" MODIFIED="1671913957506" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day9" />
     <SUITE FILE_PATH="coverage/learnPY100day$write_json.coverage" NAME="write_json Coverage Results" MODIFIED="1672016554492" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day11" />
     <SUITE FILE_PATH="coverage/learnPY100day$mobile.coverage" NAME="mobile Coverage Results" MODIFIED="1672107619847" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day12" />
     <SUITE FILE_PATH="coverage/learnPY100day$news_ticker.coverage" NAME="news_ticker Coverage Results" MODIFIED="1671753149739" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day6" />
+    <SUITE FILE_PATH="coverage/learnPY100day$word.coverage" NAME="word Coverage Results" MODIFIED="1672536726136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day15" />
     <SUITE FILE_PATH="coverage/learnPY100day$Ultraman.coverage" NAME="Ultraman Coverage Results" MODIFIED="1671938044570" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day9" />
     <SUITE FILE_PATH="coverage/learnPY100day$Salary.coverage" NAME="Salary Coverage Results" MODIFIED="1671983358091" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day9" />
     <SUITE FILE_PATH="coverage/learnPY100day$send_email_with_attachment.coverage" NAME="send_email_with_attachment Coverage Results" MODIFIED="1672527050605" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day14" />
@@ -272,6 +286,7 @@
     <SUITE FILE_PATH="coverage/learnPY100day$sentence_break.coverage" NAME="sentence_break Coverage Results" MODIFIED="1672108165317" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day12" />
     <SUITE FILE_PATH="coverage/learnPY100day$download.coverage" NAME="download Coverage Results" MODIFIED="1672503519925" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day14" />
     <SUITE FILE_PATH="coverage/learnPY100day$Poker.coverage" NAME="Poker Coverage Results" MODIFIED="1671939280803" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day9" />
+    <SUITE FILE_PATH="coverage/learnPY100day$image.coverage" NAME="image Coverage Results" MODIFIED="1672530257615" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day15" />
     <SUITE FILE_PATH="coverage/learnPY100day$read_write_file2.coverage" NAME="read_write_file2 Coverage Results" MODIFIED="1672000829655" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day11" />
     <SUITE FILE_PATH="coverage/learnPY100day$thread.coverage" NAME="thread Coverage Results" MODIFIED="1672197207261" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day13" />
     <SUITE FILE_PATH="coverage/learnPY100day$wrtie_file.coverage" NAME="wrtie_file Coverage Results" MODIFIED="1672011787125" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day11" />
