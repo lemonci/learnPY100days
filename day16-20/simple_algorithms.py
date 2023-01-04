@@ -228,5 +228,20 @@ def main():
     board = [[0] * SIZE for _ in range(SIZE)]
     patrol(board, SIZE - 1, SIZE - 1)
 
+
+if __name__ == '__main__':
+    main()
+
+
+# Dynamic Programming, find max of sum of consecutive element in a list
+def main():
+    items = list(map(int, input().split()))
+    overall = partial = items[0]
+    for i in range(1, len(items)):
+        partial = max(items[i], partial + items[i])
+        overall = max(partial, overall)
+        print(i, partial, overall)
+    print(overall)
+
 if __name__ == '__main__':
     main()
