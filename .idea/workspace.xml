@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a370afdd-8ea2-452c-8f32-f72d9a293b16" name="Changes" comment="Finish day 14">
-      <change afterPath="$PROJECT_DIR$/day16-20/review_knowledge_node.py" afterDir="false" />
+    <list default="true" id="a370afdd-8ea2-452c-8f32-f72d9a293b16" name="Changes" comment="Finish some basic nodes">
+      <change afterPath="$PROJECT_DIR$/day16-20/simple_algorithms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,18 +36,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "full.screen.before.presentation.mode": "false",
-    "last_opened_file_path": "C:/Users/Lemonci/PycharmProjects/learnPY100day/day13",
-    "settings.editor.selected.configurable": "preferences.keymap"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Lemonci/PycharmProjects/learnPY100day/day13&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Lemonci\PycharmProjects\learnPY100day\day13" />
@@ -75,7 +75,9 @@
       <workItem from="1672516948427" duration="7156000" />
       <workItem from="1672528821693" duration="4876000" />
       <workItem from="1672537028506" duration="28000" />
-      <workItem from="1672538117782" duration="3360000" />
+      <workItem from="1672538117782" duration="3496000" />
+      <workItem from="1672581548274" duration="554000" />
+      <workItem from="1672789209324" duration="5601000" />
     </task>
     <task id="LOCAL-00001" summary="finish day 11">
       <created>1672022869057</created>
@@ -126,7 +128,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672528506665</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Finish some basic nodes">
+      <created>1672541899566</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1672541899566</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,7 +159,8 @@
     <MESSAGE value="Finish ARIMA 3.3" />
     <MESSAGE value="Finish day 13" />
     <MESSAGE value="Finish day 14" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish day 14" />
+    <MESSAGE value="Finish some basic nodes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish some basic nodes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
